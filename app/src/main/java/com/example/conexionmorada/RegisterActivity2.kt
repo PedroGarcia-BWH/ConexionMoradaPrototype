@@ -20,6 +20,7 @@ import java.security.InvalidKeyException
 import java.security.NoSuchAlgorithmException
 import java.security.Security
 import java.util.*
+import android.util.Base64
 import javax.crypto.*
 import javax.crypto.spec.SecretKeySpec
 
@@ -265,7 +266,7 @@ class RegisterActivity2 : AppCompatActivity() {
                 )
                 ctLength += cipher.doFinal(cipherText, ctLength)
                 return String(
-                    Base64.encode(cipherText)
+                    Base64.encode(cipherText, Base64.DEFAULT)
                 )
             }
         } catch (uee: UnsupportedEncodingException) {
