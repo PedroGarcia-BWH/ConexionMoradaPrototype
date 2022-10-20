@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Awards">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Vitrina de logros"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+        <TableLayout
+            android:id="@+id/Vitrina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="173dp"
+                        android:layout_weight=".3"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_bronce_ch" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="173dp"
+                        android:layout_weight=".3"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_bronce_es" />
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="173dp"
+                        android:layout_weight=".3"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_bronce_xp" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_plata_ch" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_plata_es" />
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_plata_xp" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_oro_ch" />
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_oro_es" />
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_oro_xp" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_diamante_ch" />
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_diamante_es" />
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_diamante_xp" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_platino_ch" />
+
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_platino_es" />
+
+                    <ImageView
+                        android:id="@+id/imageView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_platino_xp" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/Extra"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_extra_ch" />
+
+                    <ImageView
+                        android:id="@+id/imageView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_extra_es" />
+
+                    <ImageView
+                        android:id="@+id/imageView27"
+                        android:layout_width="wrap_content"
+                        android:layout_height="173dp"
+                        android:layout_weight="1"
+                        android:alpha="0.5"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/medalla_extra_xp" />
+                </LinearLayout>
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

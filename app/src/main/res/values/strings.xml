@@ -1,3 +1,153 @@
 <resources>
-    <string name="app_name">Adictless1</string>
+    <string name="app_name">Addictless</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_survey1">SurveyActivity1</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tituloArticulo1">¿Qué son las adicciones?</string>
+    <string name="subTituloArticulo1">Tipos de adicciones y ejemplos.</string>
+    <string name="cuerpoArticulo1">\nLa palabra adicción viene del latín “addictus​a”, una enfermedad crónica y recurrente del cerebro que se caracteriza por una búsqueda patológica de la recompensa o alivio a través del uso de una sustancia u otras acciones.
+Según la Organización Mundial de la Salud (OMS) es una enfermedad física y psicoemocional que crea una dependencia o necesidad hacia una sustancia, actividad o relación. Se caracteriza por un conjunto de signos y síntomas, en los que se involucran factores biológicos, genéticos, psicológicos y sociales.\n
+
+\nLa adicción se considera una enfermedad que ofrece placer o estímulos a la persona que la padece, e incluso llega a modificar su conducta. Una persona adicta, aun sabiendo que no le beneficia el consumo de esa adicción, no puede evitar el consumo de la misma. En la base de toda conducta adictiva está una pobre o mala gestión emocional.  Lo importante no es por qué empezamos el consumo si no por qué nos quedamos con él. El consumo nos permite dar salida a algún tipo de emoción que, o no sabemos manejar, o no nos sentimos cómodos con ella. Las conductas compulsivas nos permiten dar salida a esas situaciones o emociones complicadas provocándonos una sensación irreal de “alivio” y es precisamente por ello por lo que nos quedamos en ellas. El problema llega cuando esa sensación de alivio ya no es tal y nos damos cuenta de que ya no somos capaces de parar.\n
+\nDefinida la palabra adicción, se pueden diferenciar dos tipos de adicciones: las adicciones con sustancias y las adicciones sin sustancias.\n
+
+\nLas adicciones con sustancias:\n\nLa adicción a sustancias es una enfermedad afecta a todo el cerebro. Concretamente, genera un desbalance en los neurotransmisores del sistema límbico y en los circuitos mesolímbicos dopaminergicos, en la parte del cerebro que controla los instintos animales primarios. Existe una creencia bastante extendida que solo son negativas las consumiciones de drogas ilegales. Debemos dejar claro que independientemente sea legal o ilegal, una adicción es una adicción, independientemente sea legal o no.
+Como claro ejemplo podemos hablar del alcoholismo, es una de las adicciones más comunes del mundo. Es una droga que se considera legal en la mayor parte del mundo y provoca millones de muertes al año.\n
+
+\nLas adicciones sin sustancias:\n\nLas adicciones sin sustancias también son conocidas como adicciones conductuales o comportamentales. Este tipo de adicciones pueden parecer menos peligrosas, pero no lo son. En las adicciones sin sustancia no se desarrolla “dependencia física” y por tanto no aparece el síndrome de abstinencia. Sí que tienen asociada la dependencia psicológica y emocional (ya que las áreas cerebrales implicadas en este tipo de adicción son las mismas que en las adicciones con sustancia).
+En este caso, un claro ejemplo sería la adicción a apuestas deportivas. Numerosas personas en todo el mundo pierden grandes cantidades de dinero, incluso llegando a arruinarse.
+    </string>
+
+    <string name="tituloArticulo4">¿Qué son las emociones?</string>
+    <string name="subTituloArticulo4">Te explicamos que son las emociones</string>
+    <string name="cuerpoArticulo4">\nAntes de conocer la ruleta de emociones, debemos conocer la diferencia entre emociones y sentimientos.\n
+\nLas emociones son reacciones psicofisiológicas que ocurren de manera espontánea y automática a través de un estímulo. En cambio, los sentimientos son la interpretación que hacemos de esas emociones y se pueden regular mediante nuestros pensamientos
+Por lo tanto, primero tenemos una emoción, esta nos hace experimentar un sentimiento y este provoca un acto. Por ejemplo: ira-rabia-pegar. \n
+\nEntonces, nuestra pregunta no debe ser que debemos hacer para no pegar, sino como controlar esa ira.\n
+
+\nPodemos diferenciar:\n
+\nEmociones primarias: son aquellas que son innatas y que responde a un estímulo. Son seis:\n
+
+\nIra: surge cuando un individuo se encuentra en situaciones que producen o aversión, viene acompañado de un sentimiento de tensión que nos impulsa a actuar, aumento de la actividad cardiaca.\n
+
+\nTristeza: implica una disminución del estado de ánimo, así como una reducción significativa de la actividad cognitiva y conductual.\n
+
+\nAlegría: relacionada con el placer y la alegría, viene como respuesta a la resolución de algún objetivo personal o después de mitigar una situación negativa.\n
+
+\nMiedo: estado emocional negativo o aversivo con una activación muy elevada que incita la evitación y el escape de situaciones peligrosas.\n
+
+\nSorpresa: reacción provocada por algo inesperado, nuevo o extraño.\n
+
+\nAsco: sensación de repulsión o evitación ante la posibilidad, real o imaginaria, de ingerir una sustancia nociva.\n
+    \nEmociones secundarias: son aquellas que se generan luego de una emoción primaria. Vergüenza, culpa, orgullo, ansiedad, celos, esperanza…\n
+
+\n¿Por qué es importante conocer la ruleta de emociones? La ruleta emocional es una herramienta que nos ayuda a potencializar nuestra inteligencia emocional. \n
+\nLa inteligencia emocional se podría definir como la capacidad de comprender, utilizar y controlar nuestras emociones. Esto nos ayudará a conocernos a nosotros mismos y saber cómo actuar correctamente dependiendo de nuestra emoción.\n
+
+\n¿Qué emoción te genera la adicción? ¿Cómo reaccionas antes-durante-después?\n
+
+\nDebes identificar en la ruleta como te encuentras antes, durante y después de consumir su adicción. Es importante saber que emoción y, por lo tanto, que sentimiento te produce al consumir dicha adicción para poder controlarlo.\n
+
+\nPara ello te recomendamos hacer un ejercicio semanal. Al final de la semana tener un diario de emociones, dónde vas escribiendo como te has ido sintiendo a lo largo de la semana, cuestionarte el por qué te has ido sintiendo así, cómo las has gestionado y que sentimiento te ha producido.\n</string>
+    <string name="tituloArticulo2">¿Eres una persona adicta?</string>
+    <string name="tituloArticulo3">Caso real adicción a videojuegos</string>
+    <string name="subTituloArticulo2">Síntomas y características de una persona adicta sin sustancia.</string>
+    <string name="subTituloArticulo3">Primer caso clínico en el mundo de adicción a videojuego fornite.</string>
+    <string name="cuerpoArticulo2">\nUna persona adicta se caracteriza por, aun sabiendo que la realización de conductas adictivas están causando problemas en su vida, es incapaz de dejar de consumirlas o de realizarlas. Esto provoca que, cuando la persona no puede consumir su adicción se encuentre ante una sensación de irritabilidad o alto nivel de nerviosismo.\n
+    \nNo podemos generalizar en cuanto a los síntomas, ya que dependiendo de la adicción puede provocar distintos problemas, pero nos centraremos en los principales que podemos tratar en addictless.\n
+
+    \Adicción a redes sociales\n
+    \nSe considera adicción a redes sociales a un uso excesivo de internet, que pasaría a ser una actividad predominante, con una pérdida de control del tiempo de uso y la necesidad de estar cada vez más conectado. La adicción a redes sociales suele desembocar en un descenso del rendimiento a nivel académico, o a sus obligaciones a nivel laboral y también afectaciones en las relaciones interpersonales, tanto familiares como sociales. Por otro lado, puede llegar a ocasionar problemas emocionales, que hay que aprender a gestionar. Entre este tipo de problemas está la gestión emocional, la gestión de la ira, la dependencia emocional y los problemas de autoestima.\n
+    \Adicción a apuestas\n
+    \nConsiste en un impulso irreprimible de jugar a juegos a pesar de sus consecuencias y del deseo de detenerse. Se caracteriza por una dificultad en el control de los impulsos, y que tiende a manifestarse en practicar, de manera compulsiva, uno o más juegos de azar. Puede afectar tanto en la vida diaria de la persona adicta que se ve afectada por esta adicción, de tal forma que la familia o la alimentación. Las personas con adicción al juego manifiestan una elevada ansiedad y nerviosismo. Su día a día se convierte en una continua mentira que busca disimular las pérdidas económicas ocasionadas por el juego compulsivo y la obtención desesperada de dinero (robar, préstamos, empeños…). Una vorágine destructiva que acaba derivando en aislamiento, depresión y ansiedad. A medida que va incrementándose esta conducta, la vida de la persona se va viendo afectada en todos los ámbitos, de tal forma que la familia, la alimentación, o incluso el sexo, pasa a ser algo totalmente secundario. Hay que tener claro que el juego no es un “vicio” si no que se trata de un tipo de adicción muy seria que lleva al descalabro económico y el aislamiento social y familiar.\n
+    \Adicción a videojuegos\n
+    \nUna persona adicta a los videojuegos es incapaz de controlar sus ganas y su deseo le lleva a jugar irremediablemente durante un gran número de horas. Hay que tener mucho cuidado con este tipo de adicciones sobre todo en niños ya que pueden llegar a desarrollar depresión, ansiedad, timidez, agresión y problemas con el uso excesivo de los teléfonos celulares. Los niños con el trastorno por déficit de atención e hiperactividad (TDAH) pueden ser particularmente vulnerables. \n
+    </string>
+
+    <string name="soon">WORK IN PROGRESS,SOON...</string>
+
+    <string name="bloqueado">INICIE SESIÓN PARA DESBLOQUEARLO</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="termsPrivacy">\nCondiciones de uso\n
+\nEl presente documento tiene por objeto establecer las Condiciones Generales de Uso de las aplicaciones móviles titularidad de ADDICTLESS.
+Si desea contactar con ADDICTLESS puede hacerlo por escrito en la dirección de correo electrónico centroinformacion@addictless.com.\n
+
+\nADDICTLESS se reserva el derecho a modificar las presentes Condiciones de Uso con el objeto de adecuarlas a la legislación vigente aplicable en cada momento.\n
+
+\nLas presentes Condiciones de Uso no excluyen la posibilidad de que determinados Servicios de las aplicaciones, por sus características particulares, sean sometidos, además de a las Condiciones Generales de Uso, a sus propias condiciones particulares de uso (en adelante las Condiciones Particulares).\n
+
+\nLa Empresa podrá, en cualquier momento y sin necesidad de previo aviso, realizar cambios y actualizaciones de las presentes Condiciones de Uso y de la Política de Privacidad. Estos cambios serán publicados en la Aplicación y serán efectivos desde el momento de su publicación.\n
+
+\nComo consecuencia de lo anterior, el Usuario deberá revisar periódicamente si hay cambios en estas Condiciones y, tanto si existe consentimiento expreso como si no, si el Usuario continúa usando el Servicio tras la publicación, ello implica la aceptación y asunción de los mismos. En caso de que no esté de acuerdo con las actualizaciones de las Condiciones de uso o de la Política de Privacidad, podrá renunciar dejando de usar el Servicio.\n
+
+\nEsta versión de la aplicación está disponible de forma gratuita.\n
+
+\nLa descarga y uso de la aplicación atribuye la condición de usuario de la misma (en adelante, el Usuario) e implica la lectura, entendimiento y aceptación de todos los términos y condiciones recogidas por la presente.\n
+
+\nEl usuario será el único responsable del contenido y/o datos que incorpore, envíe y utilice a través de la APP y garantiza que posee las licencias, derechos, consentimientos y permisos de uso necesarios para incorporar, enviar y/o utilizar dicho contenido y/o datos a través de la APP. Igualmente, el usuario reconoce y acepta que toda la información y/o contenidos a los que acceda a través de la APP lo es para su único y exclusivo uso personal e intransferible.\n
+
+\nLa APP puede incluir foros, blogs, salas de chat, secciones y/o apartados donde puedes agregar tus observaciones y comentarios sobre temas específicos. ADDICTLESS no garantiza que los otros miembros no utilizarán las ideas e información compartida por cada usuario.\n
+
+\nADDICTLESS no se responsabiliza por el mal uso o apropiación indebida de los contenidos o información publicada en los foros, blogs, salas de chat, secciones y/o apartados ni de las opiniones vertidas por los usuarios en dichos foros.\n
+
+\nMediante la aceptación de las presentes Condiciones de Uso de la App, el usuario otorga a ADDICTLESS un derecho no exclusivo, irrevocable, gratuito y sin limitación territorial ni temporal alguna, y con facultades de cesión a terceros, para la reproducción, comunicación pública, incluida su modalidad de puesta a disposición, distribución y transformación, en cualquiera de las modalidades conocidas hasta la fecha, de toda la información y/o contenidos que de manera directa o indirecta sean facilitados por el usuario a ADDICTLESS o puestos a disposición a través de la APP. Así, ADDICTLESS se reserva el derecho a usar, reproducir, modificar, traducir, transmitir o distribuir cualquier información, opinión, comentario y/o contenido proporcionado por el Usuario a través de la APP, para cualquier posible uso de los mismos, incluido su uso comercial, sin necesidad de ningún consentimiento adicional, notificación o compensación para el usuario.\n
+
+\nADDICTLESS no se compromete a tratar y procesar todos los datos de los usuarios registrados. Para conocer el tratamiento de datos, diríjase a la política de privacidad de FIREBASE.\n
+
+\nEl usuario se compromete a facilitar datos veraces, exactos y completos, así como a actualizar todos los datos facilitados para que éstos sigan siendo veraces, exactos y completos.\n
+
+\nEl proceso de descarga y la incorporación de sus datos y contraseña se considera una formalización de un contrato jurídicamente vinculante entre SAS y el usuario, de conformidad con los términos de estas Condiciones de Uso.\n
+\nEl usuario reconoce que ha leído y comprendido los términos y condiciones de estas Condiciones y que acepta cumplir todas sus disposiciones.\n
+
+
+</string>
+
+    <string name="cuerpoArticulo3">\nEn septiembre de 2021, se hizo famoso el caso de un joven de Castellón. Este joven tuvo que ser hospitalizado dos meses debido a su gran adicción por los videojuegos, en este caso el Fortnite. Es considerado el primer caso clínico en el mundo de un menor ingresado por este videojuego. El psiquiatra que atendió al menor que estuvo hospitalizado en Castellón por un uso abusivo del videojuego ha explicado hoy que el paciente llegó a estar conectado a las pantallas 20 horas diarias.\n
+
+\nSINTOMAS\n
+\nLos síntomas que han llevado a la decisión de hospitalizar al adolescente era: aislamiento en domicilio, rechazo a interacciones sociales con negación a acudir a servicios sanitarios, inflexibilidad personal persistente, escaso interés por su entorno y muy selectivo en sus gustos y con actividades restrictivas. Además, presentaba alteraciones en el desempeño de las actividades básicas de la vida diaria, en la toma del tratamiento prescrito en el hospital de día y en el ritmo de sueño.\n
+\nDe hecho, pese a que se trataba de un joven con un alto rendimiento académico, la familia había observado cómo desde el inicio del curso se había producido un mayor absentismo escolar y el menor se había desvinculado del ritmo del curso coincidiendo con un cambio de clase.\n
+\nTras su evaluación, los profesionales han planteado que la adicción a los videojuegos actúa como reguladora del intenso malestar por la pérdida de un familiar y por la ansiedad derivada del aumento del nivel de exigencia en el contexto educativo.\n
+
+\nEn los momentos más complicados, ha indicado el doctor, "él no era consciente de los problemas que le generaba. Luego sí fue consciente, pero no veía la relación entre estar tanto tiempo jugando y el abandono de las otras cosas".\n
+
+\nTRATAMIENTO\n
+\nEl tratamiento ha precisado un abordaje intensivo multidisciplinar, desde un enfoque cognitivo conductual, trabajando tanto con el paciente como con su familia y, a la vez, la implementación de estrategias de intervención como reestructuración cognitiva, desarrollo de habilidades personales, manejo de contingencias y establecimiento de pautas a diario. \n
+
+\nEsto le ha servido para «ser capaz de apreciar las repercusiones que el uso del videojuego estaba teniendo en su vida diaria», comenta el equipo investigador, y «le ha permitido abordar el duelo por la muerte de su familiar y cómo el empleo del juego comenzó como un refugio para su malestar emocional.\n
+
+
+\nRESULTADOS TRATAMIENTO\n
+\nLos resultados han mostrado una disminución significativa del uso de pantallas (en una primera fase después de la hospitalización con supervisión y únicamente para contacto con iguales para fomentar su socialización), así como una mejoría del funcionamiento personal y social del paciente. En el Hospital de Día, donde se ha trabajado en la prevención de recaídas y la incorporación progresiva a sus estudios, ha proseguido con el entrenamiento en regulación emocional y la adquisición de habilidades comunicativas, de forma grupal.\n
+
+\nCONCLUSION\n
+\nLa generalización del uso de nuevas tecnologías en la vida cotidiana y el ocio ha sacado a relucir potenciales perjuicios del uso inadecuado de los videojuegos y la necesidad de tratamiento especializado en aquellas personas con signos de adicción comportamental.\n
+
+\nDe acuerdo con las conclusiones de la investigación, las estrategias de prevención aconsejan la necesidad de supervisión del uso que realizan los menores de las pantallas «estableciendo límites claros y bien definidos» y «fomentando la práctica de otras fuentes de satisfacción». Asimismo, también apuestan por la creación de espacios de interacción familiar para disfrutar de actividades en grupo y la restricción de los dispositivos en las habitaciones de los menores.\n
+
+\nEl psiquiatra que atendió al menor ha recomendado a todos los padres limitar el tiempo que pasan los menores con estos dispositivos y que los más pequeños "no tengan contacto con ellos por una cuestión de desarrollo".\n</string>
+
 </resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".Controlador.Forum">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollView4"
+            android:layout_width="413dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Foro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="HILOS OFICIALES"
+                    android:textAlignment="center"
+                    android:textSize="20dp" />
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fRedesSociales"
+                    android:layout_width="378dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardCornerRadius="12dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="51dp"
+                            android:layout_height="49dp"
+                            android:padding="5dp"
+                            android:src="@drawable/logo_forooficial"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/FGeneralRD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:fontFamily="sans-serif-black"
+                            android:gravity="center"
+                            android:text="Redes Sociales | Foro General"
+                            android:textAlignment="gravity"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView9"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fVideojuegos"
+                    android:layout_width="378dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardCornerRadius="12dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <ImageView
+                            android:id="@+id/imageViewVideojuegos"
+                            android:layout_width="51dp"
+                            android:layout_height="49dp"
+                            android:fontFamily="sans-serif-black"
+                            android:padding="5dp"
+                            android:src="@drawable/logo_forooficial"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/FGVideoJuegos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Videojuegos | Foro General"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageViewVideojuegos"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fApuestas"
+                    android:layout_width="378dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardCornerRadius="12dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <ImageView
+                            android:id="@+id/imageView11"
+                            android:layout_width="50dp"
+                            android:layout_height="49dp"
+                            android:padding="5dp"
+                            android:src="@drawable/logo_forooficial"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/FGeneralAp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:fontFamily="sans-serif-black"
+                            android:text="Apuestas | Foro General"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageView11"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="HILOS CREADOS POR LA COMUNIDAD"
+                    android:textAlignment="center"
+                    android:textSize="20dp" />
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:background="?android:attr/listDivider" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvForo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/forocardview"/>
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addTag"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/add"
+            app:backgroundTint="@color/blueProgress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/SOON" />
+
+        <ImageView
+            android:id="@+id/Candado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_4_removebg_preview"
+            tools:layout_editor_absoluteY="61dp"
+            tools:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/SOON"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="REGISTRATE PARA UTILIZAR ESTA FUNCIONALIDAD"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/Candado"
+            tools:visibility="invisible" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/foro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="scrollView4,addTag" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/activity_progress.xml" value="0.33" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/activity_register2.xml" value="0.33" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/activity_survey1.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/forocardview.xml" value="0.18" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/fragment_forum.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/fragment_progress.xml" value="0.22" />
+        <entry key="..\:/Users/Pablo/StudioProjects/Adictless1/app/src/main/res/layout/mensajecardview.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/drawable/edtext_bg.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/drawable/loginbtn.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/drawable/news_bg.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_awards.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_login.xml" value="0.20984455958549222" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_main.xml" value="0.29528985507246375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_news.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_progress.xml" value="0.35507246376811596" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_register1.xml" value="0.29528985507246375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_register2.xml" value="0.29528985507246375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_survey_final.xml" value="0.2671875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/forocardview.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/fragment_forum.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/fragment_home.xml" value="0.3001579778830964" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/layout/fragment_progress.xml" value="0.3541666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Adictless1/app/src/main/res/xml/root_preferences.xml" value="0.35507246376811596" />
+        <entry key="..\:/Users/ansan/Adictless1/app/src/main/res/layout/activity_register2.xml" value="0.152" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout-small-qwerty/nuevotema.xml" value="0.5620608899297423" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_news.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_register1.xml" value="0.21143847487001732" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_register2.xml" value="0.29739583333333336" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_settings.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_survery2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_survey1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/activity_survey_final.xml" value="0.2015625" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/content_survey1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/dialog.xml" value="0.25" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/fragment_forum.xml" value="0.33" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/fragment_progress.xml" value="0.33" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/layout/settings_activity.xml" value="0.25" />
+        <entry key="..\:/Users/condo/AndroidStudioProjects/Adictless1/app/src/main/res/xml/root_preferences.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.3591485507246377" />
+      </ProjectState>
+    </option>
   </component>
 </project>

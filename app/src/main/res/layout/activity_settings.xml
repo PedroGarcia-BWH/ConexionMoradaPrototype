@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controlador.SettingsActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ModifyGeneral"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="50dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="627dp">
+
+            <TextView
+                android:id="@+id/tCuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="30dp"
+                android:text="Cuenta"
+                android:textColor="#FF6200EE"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Modificar correo electrónico"
+                android:textColor="#040303"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tCuenta" />
+
+            <EditText
+                android:id="@+id/emailChange"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edtext_bg"
+                android:hint="Correo Electrónico"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="50dp"
+                android:text="Modificar Nombre de Usuario"
+                android:textColor="#0B0B0B"
+                android:textSize="16sp"
+                android:paddingStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/emailChange" />
+
+            <EditText
+                android:id="@+id/usernameChange"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edtext_bg"
+                android:hint="Usuario"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="50dp"
+                android:text="Modificar Contraseña"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/usernameChange" />
+
+            <EditText
+                android:id="@+id/passwordChange"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edtext_bg"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <EditText
+                android:id="@+id/passwordChangeConfirm"
+                android:layout_width="280dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edtext_bg"
+                android:hint="Confirme Contraseña"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordChange" />
+
+            <TextView
+                android:id="@+id/tMensajes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="70dp"
+                android:text="Mensajes"
+                android:textColor="#FF6200EE"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/passwordChangeConfirm" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/notify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:checked="true"
+                android:text="Recibir notificaciones"
+                android:textColor="#0B0B0B"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tMensajes" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/confirmChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/loginbtn"
+                android:text="Confirmar"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/notify" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

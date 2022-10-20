@@ -6,71 +6,151 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="257dp"
-        android:layout_height="215dp"
-        app:srcCompat="@drawable/img"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="28dp" />
 
-    <EditText
-        android:id="@+id/email"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Correo electrónico"
-        android:inputType="text"
-        tools:layout_editor_absoluteX="-40dp"
-        tools:layout_editor_absoluteY="323dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        app:cardCornerRadius="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView1"
-        app:layout_constraintVertical_bias="0.009" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16000003">
 
-    <EditText
-        android:id="@+id/password"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="253dp"
+                android:layout_height="197dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.044"
+                app:srcCompat="@drawable/logo_transparent" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="68dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/edtext_bg"
+                android:hint=" Correo electrónico"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:textAlignment="viewStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.506"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/edtext_bg"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:paddingStart="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/email"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/email"
+                app:layout_constraintTop_toBottomOf="@+id/email" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/loginbtn"
+                android:gravity="center"
+                android:text="Iniciar Sesión"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/password"
+                app:layout_constraintHorizontal_bias="0.485"
+                app:layout_constraintStart_toStartOf="@+id/password"
+                app:layout_constraintTop_toBottomOf="@+id/password" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Iniciar Sesion"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/email"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintStart_toStartOf="@+id/email"
+                app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="46dp"
+                android:layout_marginBottom="15dp"
+                android:clickable="true"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="¿Aún no estas registrado? Regístrate."
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/login"
+                app:layout_constraintVertical_bias="0.0" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/progress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Contraseña"
-        android:inputType="textPassword"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="381dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintVertical_bias="0.009" />
+        app:layout_constraintTop_toBottomOf="@+id/register" />
 
-    <Button
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/guest"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:text="Iniciar Sesión"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="458dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.009" />
+        android:text="Entrar como invitado"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/cardView2"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
 
-    <Button
-        android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Registrate"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="529dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login"
-        app:layout_constraintVertical_bias="0.009" />
 </androidx.constraintlayout.widget.ConstraintLayout>

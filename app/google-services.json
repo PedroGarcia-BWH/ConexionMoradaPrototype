@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "696933855088",
+    "project_id": "adictless-fa85e",
+    "storage_bucket": "adictless-fa85e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696933855088:android:2aa03a1355d05bcfb1e9b5",
+        "android_client_info": {
+          "package_name": "com.example.adictless1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696933855088-lr6hu111q0ktnli4n83mbcitf5gtclfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN53IPSQ8dAA4ePCrVZxbUzxauRryZX2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696933855088-lr6hu111q0ktnli4n83mbcitf5gtclfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

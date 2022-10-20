@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="413dp"
+        android:layout_height="676dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloTema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Titulo de tema"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="30dp"
+                app:cardBackgroundColor="#94B3FD"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="1dp"
+                app:contentPadding="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/imagenMensajeA"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+
+                        android:layout_marginTop="10dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/nicknameA"
+                        app:srcCompat="@drawable/logo_forooficial" />
+
+                    <TextView
+                        android:id="@+id/nicknameA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Equipo de Adictless"
+                        app:layout_constraintStart_toEndOf="@+id/imagenMensajeA"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/cuerpoMensajeA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="52dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Por su seguridad no compartas información sensible ni personal, gracias"
+                        app:layout_constraintStart_toEndOf="@+id/imagenMensajeA"
+                        app:layout_constraintTop_toBottomOf="@+id/nicknameA" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvmensajes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sendMesage"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+
+        android:src="@drawable/send"
+        app:backgroundTint="@color/blueProgress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/Mensage"
+        android:layout_width="317dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Mensaje"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sendMesage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
