@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
 
         val registro =findViewById<TextView>(R.id.register)
         registro.setOnClickListener {
-            val registerAct = Intent(this, RegisterActivity1::class.java)
+            val registerAct = Intent(this, RegisterActivity::class.java)
             startActivity(registerAct)
         }
 

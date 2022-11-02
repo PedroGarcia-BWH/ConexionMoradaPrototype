@@ -26,8 +26,9 @@
 
             <ImageView
                 android:id="@+id/imageView1"
-                android:layout_width="253dp"
-                android:layout_height="197dp"
+                android:layout_width="279dp"
+                android:layout_height="235dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="-20dp"
                 android:layout_marginEnd="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -36,7 +37,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.044"
-                app:srcCompat="@drawable/logo_transparent" />
+                app:srcCompat="@drawable/conexion_logo" />
 
             <EditText
                 android:id="@+id/email"
@@ -71,6 +72,16 @@
                 app:layout_constraintStart_toStartOf="@+id/email"
                 app:layout_constraintTop_toBottomOf="@+id/email" />
 
+            <CheckBox
+                android:id="@+id/session"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Mantener sesion iniciada"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/password" />
+
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/login"
                 android:layout_width="match_parent"
@@ -86,7 +97,7 @@
                 app:layout_constraintEnd_toEndOf="@+id/password"
                 app:layout_constraintHorizontal_bias="0.485"
                 app:layout_constraintStart_toStartOf="@+id/password"
-                app:layout_constraintTop_toBottomOf="@+id/password" />
+                app:layout_constraintTop_toBottomOf="@+id/session" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -96,7 +107,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="50dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Iniciar Sesion"
+                android:text="Iniciar Sesión"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textSize="24sp"
