@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/portada"
@@ -9,40 +11,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ConexionMorada"
         android:usesCleartextTraffic="true">
+
+
         <activity
-            android:name="com.example.conexionmorada.Controlador.SettingsActivity"
+            android:name="es.uca.conexionmorada.Controlador.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.conexionmorada.Awards"
+            android:name="es.uca.conexionmorada.Awards"
             android:exported="false" />
         <activity
-            android:name="com.example.conexionmorada.newTemaActivity"
+            android:name="es.uca.conexionmorada.newTemaActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.conexionmorada.ActivityProgress"
+            android:name="es.uca.conexionmorada.ActivityProgress"
             android:exported="false" />
         <activity
-            android:name="com.example.conexionmorada.ChatActivity"
+            android:name="es.uca.conexionmorada.ChatActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.conexionmorada.SettingsActivity"
+            android:name="es.uca.conexionmorada.SettingsActivity"
             android:exported="false"
             android:label="@string/title_activity_settings" />
 
         <activity
-            android:name="com.example.conexionmorada.NewsActivity"
+            android:name="es.uca.conexionmorada.NewsActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.conexionmorada.Login"
+            android:name="es.uca.conexionmorada.Login"
             android:exported="false" />
         <activity
-            android:name="com.example.conexionmorada.RegisterActivity"
+            android:name="es.uca.conexionmorada.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.conexionmorada.ConditionsActivity"
+            android:name="es.uca.conexionmorada.ConditionsActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.conexionmorada.MainActivity"
+            android:name="es.uca.conexionmorada.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "696933855088",
-    "project_id": "adictless-fa85e",
-    "storage_bucket": "adictless-fa85e.appspot.com"
+    "project_number": "534642940411",
+    "firebase_url": "https://conexion-morada-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "conexion-morada",
+    "storage_bucket": "conexion-morada.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:696933855088:android:2aa03a1355d05bcfb1e9b5",
+        "mobilesdk_app_id": "1:534642940411:android:acf16ce12a39170082135e",
         "android_client_info": {
-          "package_name": "com.example.conexionmorada"
+          "package_name": "es.uca.conexionmorada"
         }
       },
       "oauth_client": [
         {
-          "client_id": "696933855088-lr6hu111q0ktnli4n83mbcitf5gtclfh.apps.googleusercontent.com",
+          "client_id": "534642940411-up6mocvv7l1h2iaig68pb90vpt4pkuej.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAN53IPSQ8dAA4ePCrVZxbUzxauRryZX2M"
+          "current_key": "AIzaSyCRjC-r1CQFLp9Rs2xMuxWwUTMq6WngduY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "696933855088-lr6hu111q0ktnli4n83mbcitf5gtclfh.apps.googleusercontent.com",
+              "client_id": "534642940411-up6mocvv7l1h2iaig68pb90vpt4pkuej.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
