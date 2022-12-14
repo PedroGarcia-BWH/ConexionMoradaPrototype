@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.conexionmorada.R;
+import es.uca.conexionmorada.R;
 
 public class HolderMensaje extends RecyclerView.ViewHolder
 {

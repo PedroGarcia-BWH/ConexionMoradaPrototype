@@ -14,8 +14,8 @@ import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.core.text.isDigitsOnly
-import com.example.conexionmorada.Controlador.ObtenerExperiencia
-import com.example.conexionmorada.Controlador.Progress
+import es.uca.conexionmorada.Controlador.ObtenerExperiencia
+import es.uca.conexionmorada.Controlador.Progress
 
 import com.github.mikephil.charting.charts.BarChart
 import com.google.firebase.Timestamp
@@ -42,16 +42,16 @@ class ActivityProgress : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(com.example.conexionmorada.R.layout.activity_progress)
+        setContentView(es.uca.conexionmorada.R.layout.activity_progress)
 
         auth = Firebase.auth
         val user = auth.currentUser
 
-        val Btn_Redes = findViewById<Button>(com.example.conexionmorada.R.id.RedesButton)
-        val Btn_Apuestas = findViewById<Button>(com.example.conexionmorada.R.id.ApuestasButton)
-        val Btn_Videojuegos = findViewById<Button>(com.example.conexionmorada.R.id.VideojuegosButton)
-        val Btn_Confirmar = findViewById<Button>(com.example.conexionmorada.R.id.addStatButton2)
-        var Horas = findViewById<EditText>(com.example.conexionmorada.R.id.addTimeText)
+        val Btn_Redes = findViewById<Button>(es.uca.conexionmorada.R.id.RedesButton)
+        val Btn_Apuestas = findViewById<Button>(es.uca.conexionmorada.R.id.ApuestasButton)
+        val Btn_Videojuegos = findViewById<Button>(es.uca.conexionmorada.R.id.VideojuegosButton)
+        val Btn_Confirmar = findViewById<Button>(es.uca.conexionmorada.R.id.addStatButton2)
+        var Horas = findViewById<EditText>(es.uca.conexionmorada.R.id.addTimeText)
 
         val doc_ref = user?.let { db.collection("users").document(it.uid) }
         doc_ref!!.get()
@@ -484,7 +484,7 @@ class ActivityProgress : AppCompatActivity() {
         barChart.setDescription("Tiempo de uso semanal")  // set the description
 
         //barDataSet.setColors(ColorTemplate.COLORFUL_COLORS)
-        barDataSet.color = com.example.conexionmorada.R.color.blueProgress
+        barDataSet.color = es.uca.conexionmorada.R.color.blueProgress
 
         barChart.animateY(5000)
     }

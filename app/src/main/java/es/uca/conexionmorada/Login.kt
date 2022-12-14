@@ -5,10 +5,10 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager.widget.ViewPager
-import com.example.conexionmorada.Controlador.Forum
-import com.example.conexionmorada.Controlador.Home
-import com.example.conexionmorada.Controlador.PageController
-import com.example.conexionmorada.Controlador.Progress
+import es.uca.conexionmorada.Controlador.Forum
+import es.uca.conexionmorada.Controlador.Home
+import es.uca.conexionmorada.Controlador.PageController
+import es.uca.conexionmorada.Controlador.Progress
 import com.google.android.material.tabs.TabLayout
 
 

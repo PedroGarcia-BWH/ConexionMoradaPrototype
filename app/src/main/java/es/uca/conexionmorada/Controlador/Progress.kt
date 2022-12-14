@@ -13,9 +13,9 @@ import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
-import com.example.conexionmorada.Awards
-import com.example.conexionmorada.Login
-import com.example.conexionmorada.R
+import es.uca.conexionmorada.Awards
+import es.uca.conexionmorada.Login
+import es.uca.conexionmorada.R
 import com.google.firebase.Timestamp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth

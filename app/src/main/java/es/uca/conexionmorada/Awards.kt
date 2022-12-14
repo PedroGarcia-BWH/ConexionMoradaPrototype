@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.ImageView
 import androidx.annotation.RequiresApi
-import com.example.conexionmorada.Controlador.Progress
+import es.uca.conexionmorada.Controlador.Progress
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore

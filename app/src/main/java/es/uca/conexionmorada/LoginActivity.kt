@@ -15,6 +15,7 @@ import com.google.firebase.Timestamp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import java.time.Instant
 import java.time.LocalDateTime
@@ -119,9 +120,9 @@ class LoginActivity : AppCompatActivity() {
                                     //Otorgar experiencia
                                     if(fechaBbddXP.before(fechaActXP)){
                                         val level_db = data_user.get("level").toString().toFloat()    // Obtengo nivel de la base de datos
-                                        val newLevel = ObtenerExperiencia(20,level_db,2.5f) // Calculo el nuevo nivel
+                                        //val newLevel = ObtenerExperiencia(20,level_db,2.5f) // Calculo el nuevo nivel
                                         val database = db.collection("users").document(user.uid)    // Obtengo el documento de la base de datos
-                                        database.update("level", newLevel)  // Se guarda el nuevo nivel en la base de datos
+                                        //database.update("level", newLevel)  // Se guarda el nuevo nivel en la base de datos
                                         val xp = 20 + level_db * 2.5
                                         Toast.makeText(baseContext, "Has conseguido " + xp.toInt().toString() + "xp",
                                             Toast.LENGTH_SHORT).show()

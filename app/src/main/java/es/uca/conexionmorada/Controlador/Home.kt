@@ -10,8 +10,8 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
-import com.example.conexionmorada.NewsActivity
-import com.example.conexionmorada.R
+import es.uca.conexionmorada.NewsActivity
+import es.uca.conexionmorada.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
